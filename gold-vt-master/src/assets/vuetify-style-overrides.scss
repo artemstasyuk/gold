@@ -1,0 +1,85 @@
+@import "vuetify/src/styles/styles";
+@import "variables";
+
+/* Global overrides */
+.v-app-bar {
+  min-width: $minWidth;
+}
+
+
+.v-text-field--outline {
+  & > .v-input__control {
+    & > .v-input__slot,
+    & > .v-select__slot{
+      border-width: 1px !important;
+      margin-top: -1px;
+      margin-bottom: 7px;
+    }
+  }
+
+  &:not(.error--text):not(.v-input--is-focused) {
+    & > .v-input__control {
+      & > .v-input__slot,
+      & > .v-select__slot{
+        border-color: map-get($grey, 'lighten-1');
+      }
+    }
+  }
+}
+
+
+/* Custom classes */
+.solo-outlined-input {
+  & > .v-input__control {
+    & > .v-input__slot,
+    & > .v-select__slot{
+      border: 1px solid;
+      margin-top: -1px;
+      margin-bottom: 7px;
+      border-radius: 4px !important;
+      box-shadow: none !important;
+    }
+  }
+
+  &:not(.error--text):not(.v-input--is-focused) {
+    & > .v-input__control {
+      & > .v-input__slot,
+      & > .v-select__slot{
+        border-color: map-get($grey, 'lighten-1');
+      }
+    }
+  }
+}
+
+.data-table-wrapper-sticky-fix {
+  word-break: initial;
+
+  &.v-data-table--fixed-header {
+    & .v-data-table__wrapper {
+      overflow-x: initial;
+      overflow-y: initial;
+
+      & th {
+        top: 64px !important;
+        box-shadow: none !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+      }
+
+      & .v-data-table-header-mobile {
+        & th {
+          top: 56px !important;
+        }
+      }
+
+      & .v-data-table-header__icon {
+        display: inline-block !important;
+      }
+    }
+
+    &.smAndDown {
+      & th {
+        top: 56px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "breadcrumbs": {
+        "newsAdd": "Добавить",
+        "newsEdit": "Редактировать",
+        "newsList": "Список новостей"
+    },
+    "news": {
+        "form": {
+            "aliasLabel": "Системное имя",
+            "categoryIdLabel": "Категория",
+            "contentLabel": "Содержание",
+            "publicationDateLabel": "Дата публикации",
+            "statusIdLabel": "Статус",
+            "tagIdsLabel": "Теги",
+            "titleLabel": "Название",
+            "updatedAtLabel": "Дата обновления"
+        },
+        "list": {
+            "title": "Список новостей",
+            "filter": {
+                "alias": "Системное имя",
+                "categoryId": "Категория",
+                "content": "Содержание",
+                "createdAt": "Создано",
+                "ids": "",
+                "notId": "",
+                "publicationDate": "Дата публикации",
+                "quickFilterPlaceholder": "",
+                "statusId": "Статус",
+                "title": "Название",
+                "updatedAt": "Дата обновления"
+            },
+            "headers": {
+                "actions": "Действия",
+                "alias": "Системное имя",
+                "category": "Категория",
+                "content": "Содержание",
+                "publicationDate": "",
+                "status": "Статус",
+                "title": "Название",
+                "updatedAt": ""
+            }
+        }
+    }
+}

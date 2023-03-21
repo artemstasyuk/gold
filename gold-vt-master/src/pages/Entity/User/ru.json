@@ -1,0 +1,32 @@
+{
+  "breadcrumbs": {
+    "userList": "Пользователи",
+    "userAdd": "Добавить",
+    "userEdit": "Редактировать"
+  },
+  "user": {
+    "form": {
+      "loginLabel": "Логин",
+      "passwordLabel": "Пароль",
+      "statusLabel": "Статус",
+      "newPasswordLabel": "Новый пароль"
+    },
+    "list": {
+      "title": "Пользователи",
+      "filter": {
+        "quickFilterPlaceholder": "Фильтр по логину",
+        "login": "Логин",
+        "statusId": "Статус",
+        "lastActivityAtFrom": "Последняя активность от",
+        "lastActivityAtTo": "Последняя активность до"
+      },
+      "headers": {
+        "login": "Логин",
+        "status": "Статус",
+        "createdAt": "Создан",
+        "lastActivityAt": "Последняя активность",
+        "actions": "Действия"
+      }
+    }
+  }
+}

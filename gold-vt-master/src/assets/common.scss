@@ -1,0 +1,19 @@
+@import "variables";
+
+body {
+  min-width: $minWidth;
+}
+
+.min-width-table {
+  min-width: $minWidthTable;
+
+  &-full {
+    min-width: calc(100vw - 24px) !important;
+  }
+}
+
+.ellipsed {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

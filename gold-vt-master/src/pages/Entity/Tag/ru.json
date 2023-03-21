@@ -1,0 +1,27 @@
+{
+    "breadcrumbs": {
+        "tagAdd": "Добавить",
+        "tagEdit": "Редактировать",
+        "tagList": "Теги"
+    },
+    "tag": {
+        "form": {
+            "statusIdLabel": "Статус",
+            "titleLabel": "Название"
+        },
+        "list": {
+            "title": "Теги",
+            "filter": {
+                "ids": "",
+                "quickFilterPlaceholder": "название",
+                "statusId": "Статус",
+                "title": "Название"
+            },
+            "headers": {
+                "actions": "Действия",
+                "status": "Статус",
+                "title": "Название"
+            }
+        }
+    }
+}

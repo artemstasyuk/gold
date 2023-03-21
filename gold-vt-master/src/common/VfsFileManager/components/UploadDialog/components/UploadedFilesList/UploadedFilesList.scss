@@ -1,0 +1,47 @@
+.uploaded-files-list {
+  &-title {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 0.8rem;
+
+    &__full {
+      display: flex;
+      flex-wrap: nowrap;
+      min-width: 0;
+      flex: 1;
+    }
+
+    &__ellipsis {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .file-item__ext {
+      white-space: nowrap;
+    }
+
+    .hover-only {
+      display: none;
+    }
+
+    &:hover {
+      .hover-only {
+        display: flex;
+      }
+    }
+  }
+
+  .type-only {
+    .v-image__image--cover,
+    .v-image__image--contain {
+      background-size: 20px;
+    }
+  }
+
+  &-cropper {
+    .cropper-bg {
+      background-repeat: repeat !important;
+    }
+  }
+}

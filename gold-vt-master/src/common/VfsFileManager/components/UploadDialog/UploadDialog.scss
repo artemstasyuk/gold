@@ -1,0 +1,36 @@
+.upload-dialog {
+  display: inline-flex;
+  vertical-align: middle;
+
+  &__dropzone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    border: dashed 1px grey;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #fff;
+    z-index: 3;
+
+    &.enable {
+      display: flex;
+    }
+  }
+
+  &__upload-list {
+    //position: absolute;
+    //top: 0;
+    //left: 0;
+    //right: 0;
+    //bottom: 0;
+    //background: #ffffff;
+    //z-index: 3;
+    //padding: 16px;
+  }
+}

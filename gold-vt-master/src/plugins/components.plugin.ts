@@ -1,0 +1,71 @@
+import Vue from 'vue';
+import StatusSelect from '@/ui/Inputs/StatusSelect.vue';
+import ToolbarLangSwitcher from '@/common/ToolbarLangSwitcher/ToolbarLangSwitcher.vue';
+import EntityAutocomplete from '@/common/EntityAutocomplete/EntityAutocomplete.vue';
+import DatePicker from '@/ui/Inputs/DatePicker.vue';
+import TimePicker from '@/ui/Inputs/TimePicker.vue';
+import FormField from '@/ui/FormField/FormField.vue';
+import ArraySearch from '@/ui/Inputs/ArraySearch.vue';
+import FileInput from '@/ui/Inputs/FileInput.vue';
+import ImageInput from '@/ui/Inputs/ImageInput.vue';
+import DateTimePicker from '@/ui/Inputs/DateTimePicker.vue';
+import TinyMceEditor from '@/ui/Inputs/TinyMceEditor.vue';
+import CompactPagination from '@/common/CompactPagination/CompactPagination.vue';
+import StatusBadge from '@/common/StatusBadge/StatusBadge.vue';
+import FiltersChips from '@/common/FiltersChips/FiltersChips.vue';
+import LoginLayout from '@/layouts/LoginLayout.vue';
+import EntityView from '@/views/EntityView/EntityView.vue';
+import DashboardView from '@/views/DashboardView/DashboardView.vue';
+import LoginView from '@/views/LoginView/LoginView.vue';
+import ErrorView from '@/views/ErrorView/ErrorView.vue';
+import VfsFileManager from '@/common/VfsFileManager/VfsFileManager.vue';
+import VfsFileInput from '@/ui/Inputs/VfsFileInput.vue';
+import VfsImageInput from '@/ui/Inputs/VfsImageInput.vue';
+import BooleanBadge from '@/common/BooleanBadge/BooleanBadge.vue';
+import Transliterator from '@/ui/Inputs/Transliterator.vue';
+import BooleanSelect from '@/ui/Inputs/BooleanSelect.vue';
+import RatingSelect from '@/ui/Inputs/RatingSelect.vue';
+import GeoInput from '@/ui/Inputs/GeoInput.vue';
+import YandexGeoCode from '@/ui/Inputs/YandexGeoCode.vue';
+import Cropper from '@/common/Cropper/Cropper.vue';
+import VtSwitch from '@/ui/Inputs/Switch.vue';
+import VtVfsImage from '@/common/VfsImage/VfsImage.vue';
+import MultiFilter from '@/common/MultiFilter/MultiFilter.vue';
+
+/* Register common vue ui */
+Vue.component('vt-status-select', StatusSelect);
+Vue.component('toolbar-lang-switcher', ToolbarLangSwitcher);
+Vue.component('vt-entity-autocomplete', EntityAutocomplete);
+Vue.component('vt-date-picker', DatePicker);
+Vue.component('vt-time-picker', TimePicker);
+Vue.component('vt-datetime-picker', DateTimePicker);
+Vue.component('vt-array-search', ArraySearch);
+Vue.component('vt-file-input', FileInput);
+Vue.component('vt-image-input', ImageInput);
+Vue.component('vt-vfs-file-input', VfsFileInput);
+Vue.component('vt-vfs-image-input', VfsImageInput);
+Vue.component('vt-vfs-image', VtVfsImage);
+Vue.component('vt-tinymce-editor', TinyMceEditor);
+Vue.component('vt-compact-pagination', CompactPagination);
+Vue.component('vt-form-field', FormField);
+Vue.component('vt-status-badge', StatusBadge);
+Vue.component('vt-filters-chips', FiltersChips);
+Vue.component('vt-file-manager', VfsFileManager);
+Vue.component('vt-boolean-badge', BooleanBadge);
+Vue.component('vt-transliterator', Transliterator);
+Vue.component('vt-boolean-select', BooleanSelect);
+Vue.component('vt-rating-select', RatingSelect);
+Vue.component('vt-geo-input', GeoInput);
+Vue.component('yandex-geo-code', YandexGeoCode);
+Vue.component('vt-image-cropper', Cropper);
+Vue.component('vt-switch', VtSwitch);
+Vue.component('vt-multi-filter', MultiFilter);
+
+/* Register layouts & wrapper */
+Vue.component('vt-login-layout', LoginLayout);
+Vue.component('vt-entity-view', EntityView);
+Vue.component('vt-dashboard-view', DashboardView);
+Vue.component('vt-login-view', LoginView);
+Vue.component('vt-error-view', ErrorView);
+
+/* Project related components put here */

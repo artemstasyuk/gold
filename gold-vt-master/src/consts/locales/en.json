@@ -1,0 +1,125 @@
+{
+  "dataIterator": {
+    "rowsPerPageText": "Items per page:",
+    "rowsPerPageAll": "All",
+    "pageText": "{0}-{1} of {2}",
+    "noResultsText": "No matching records found",
+    "nextPage": "Next page",
+    "prevPage": "Previous page",
+    "loadingText": "Loading..."
+  },
+  "dataTable": {
+    "rowsPerPageText": "Rows per page:",
+    "itemsPerPageText": "Rows per page:",
+    "ariaLabel": {
+      "sortNone": "None",
+      "sortDescending": "Desc",
+      "sortAscending": "Asc",
+      "activateAscending" : "",
+      "activateDescending" : ""
+    },
+    "sortBy": "Sort by"
+  },
+  "dataFooter": {
+    "prevPage": "Previous",
+    "nextPage": "Next",
+    "pageText": ""
+  },
+  "noDataText": "No data available",
+  "datePicker": {
+    "prevMonthAriaLabel": "",
+    "nextMonthAriaLabel": "",
+    "prevYearAriaLabel": "",
+    "nextYearAriaLabel": ""
+  },
+  "carousel": {
+    "prev": "Previous visual",
+    "next": "Next visual"
+  },
+  "login": {
+    "formLabel": "Auth",
+    "loginFieldLabel": "Login",
+    "passwordFieldLabel": "Password",
+    "rememberFieldLabel": "Remember",
+    "submitButtonLabel": "Log in"
+  },
+  "toolbarProfile": {
+    "logoutLabel": "Logout"
+  },
+  "vtTable": {
+    "pageInfo": "Showed {0}-{1} results of {2}"
+  },
+  "vtCompactPagination": {
+    "pageOfPages": "Page {0} of {1}"
+  },
+  "vtFileInput": {
+    "dropzoneLabel": "Drop files here",
+    "addLabel": "Add",
+    "pickLabel": "Pick"
+  },
+  "vfsFileInput": {
+    "addLabel": "Add",
+    "managerHeading": "Files",
+    "error": {
+      "file": "Can't select file"
+    }
+  },
+  "yandexGeoCode": {
+    "placeholder": "Find place by title"
+  },
+  "vtGeoInput": {
+    "longitudeLabel": "Longitude",
+    "latitudeLabel": "Latitude"
+  },
+  "errors": {
+    "validation": {
+      "required": "Field is required",
+      "incorrect": "Field is incorrect",
+      "unique": "Must be unique",
+      "format": "Wrong format",
+      "url": "Wrong URL format",
+      "email": "Wrong E-mail format",
+      "min": "Value less than minimum",
+      "max": "Value greater than maximum",
+      "dateRange": "Select another date range"
+    },
+    "formErrors": {
+      "incorrectLoginOrPassword": "Incorrect login or password"
+    },
+    "unknown": "Unknown error",
+    "server": "Server error with status: {0}",
+    "rpc500": "RPC error with code: 500",
+    "rpc400": "RPC input data error",
+    "rpc404": "Not found",
+    "rpc401": "Authorization required"
+  },
+  "breadcrumbs": {
+    "dashboard": "Dashboard"
+  },
+  "common": {
+    "view": {
+      "title": "Admin CP"
+    },
+    "list": {
+      "filter": {
+        "title": "Filters",
+        "allFiltersLabel": "All filters",
+        "submitButtonLabel": "Filter"
+      },
+      "addNewLabel": "Add"
+    },
+    "form": {
+      "saveAndCloseButtonLabel": "Save and close",
+      "saveButtonLabel": "Apply",
+      "cancelButtonLabel": "Back",
+      "cancelLabel": "Cancel"
+    },
+    "confirmDelete": "Confirm delete \"{0}\"?",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "copy-to-clipboard": {
+    "doneLabel": "Copied to clipboard",
+    "hoverLabel": "Copy to clipboard"
+  }
+}

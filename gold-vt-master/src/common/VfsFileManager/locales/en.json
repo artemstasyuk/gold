@@ -1,0 +1,60 @@
+{
+  "vfsFileManager": {
+    "list": {
+      "headers": {
+        "id": "ID",
+        "name": "Name",
+        "size": "Size",
+        "date": "Date"
+      }
+    },
+    "upload": {
+      "dropzoneText": "Select or drop files here",
+      "filesListLabel": "Files for upload",
+      "imageEditLabel": "Edit image"
+    },
+    "actions": {
+      "addLabel": "Add",
+      "deleteLabel": "Delete",
+      "editLabel": "Rename",
+      "duplicateLabel": "Duplicate",
+      "cutLabel": "Cut",
+      "previewLabel": "Cut",
+      "copyPathLabel": "Copy path",
+      "pasteLabel": "Paste{0}",
+      "cancelLabel": "Cancel",
+      "deleteConfirmation": "Confirm delete",
+      "deleteConfirmationQuestion": "You want delete file \"{0}\"?",
+      "deleteManyConfirmationQuestion": "You want delete selected files?",
+      "deleteFolderConfirmationQuestion": "You want delete directory \"{0}\"?",
+      "createFolderLabel": "Create",
+      "copyPathSuccess": "File path copied"
+    },
+    "search": {
+      "placeholder": "Search..."
+    },
+    "create": {
+      "createFolderDialogTitle": "Create folder",
+      "createFolderNamePlaceholder": "Folder name"
+    },
+    "update": {
+      "folderDialogTitle": "Edit folder",
+      "fileDialogTitle": "Rename file",
+      "folderNamePlaceholder": "Folder name",
+      "fileNamePlaceholder": "File name",
+      "folderDialogText": "Type new folder name for \"{0}\":",
+      "fileDialogText": "Type new file name for \"{0}\":"
+    },
+    "error": {
+      "notFound": "Cant find file in VFS",
+      "whenDeleteFiles": "Error when delete",
+      "whenDeleteFolder": "Error when delete directory: {0}",
+      "whenUpdateFolder": "Error when edit directory: {0}",
+      "whenUpdateFile": "Error when edit file: {0}",
+      "whenManageFavorites": "Error when edit favorites: {0}",
+      "whenMoveFiles": "Error when move files: {0}",
+      "whenMoveFolder": "Error when move folder: {0}",
+      "whenDuplicateFile": "Error when duplicate file: {0}"
+    }
+  }
+}

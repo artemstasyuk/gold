@@ -1,0 +1,125 @@
+{
+  "dataIterator": {
+    "rowsPerPageText": "Записей на странице:",
+    "rowsPerPageAll": "Все",
+    "pageText": "{0}-{1} из {2}",
+    "noResultsText": "Не найдено подходящих записей",
+    "nextPage": "Следующая страница",
+    "prevPage": "Предыдущая страница",
+    "loadingText": "Загрузка..."
+  },
+  "dataTable": {
+    "rowsPerPageText": "Строк на странице:",
+    "itemsPerPageText": "Строк на странице:",
+    "ariaLabel": {
+      "sortNone": "",
+      "sortDescending": "",
+      "sortAscending": "",
+      "activateAscending" : "",
+      "activateDescending" : ""
+    },
+    "sortBy": "Сортировка"
+  },
+  "dataFooter": {
+    "prevPage": "Назад",
+    "nextPage": "Вперед",
+    "pageText": ""
+  },
+  "noDataText": "Отсутствуют данные",
+  "datePicker": {
+    "prevMonthAriaLabel": "",
+    "nextMonthAriaLabel": "",
+    "prevYearAriaLabel": "",
+    "nextYearAriaLabel": ""
+  },
+  "carousel": {
+    "prev": "Предыдущий визуальный",
+    "next": "Следующий визуальный"
+  },
+  "login": {
+    "formLabel": "Авторизация",
+    "loginFieldLabel": "Логин",
+    "passwordFieldLabel": "Пароль",
+    "rememberFieldLabel": "Запомнить",
+    "submitButtonLabel": "Войти"
+  },
+  "toolbarProfile": {
+    "logoutLabel": "Выход"
+  },
+  "vtTable": {
+    "pageInfo": "Показано {0}-{1} результатов из {2}"
+  },
+  "vtCompactPagination": {
+    "pageOfPages": "Страница {0} из {1}"
+  },
+  "vtFileInput": {
+    "dropzoneLabel": "Перетяните файлы сюда",
+    "addLabel": "Добавить",
+    "pickLabel": "Выбрать"
+  },
+  "vfsFileInput": {
+    "addLabel": "Добавить",
+    "managerHeading": "Файлы",
+    "error": {
+      "file": "Невозможно выбрать файл"
+    }
+  },
+  "yandexGeoCode": {
+    "placeholder": "Найти место по названию"
+  },
+  "vtGeoInput": {
+    "longitudeLabel": "Долгота",
+    "latitudeLabel": "Широта"
+  },
+  "errors": {
+    "validation": {
+      "required": "Поле обязательно для заполнения",
+      "incorrect": "Поле заполнено неверно",
+      "unique": "Значение должно быть уникальным",
+      "format": "Неверный формат",
+      "url": "Неверный формат URL",
+      "email": "Неверный формат E-mail",
+      "min": "Значение меньше минимально допустимого",
+      "max": "Значение больше максимально допустимого",
+      "dateRange": "Выберите другой диапазон дат"
+    },
+    "formErrors": {
+      "incorrectLoginOrPassword": "Неправильный логин или пароль"
+    },
+    "unknown": "Неизвестная ошибка",
+    "server": "Ошибка сервера, статус: {0}",
+    "rpc500": "Ошибка RPC, код ошибки: 500",
+    "rpc400": "Ошибка обработки данных",
+    "rpc404": "Не найдено",
+    "rpc401": "Требуется авторизация"
+  },
+  "breadcrumbs": {
+    "dashboard": "Главная"
+  },
+  "common": {
+    "view": {
+      "title": "Панель управления"
+    },
+    "list": {
+      "filter": {
+        "title": "Фильтры",
+        "allFiltersLabel": "Все фильтры",
+        "submitButtonLabel": "Найти"
+      },
+      "addNewLabel": "Добавить"
+    },
+    "form": {
+      "saveAndCloseButtonLabel": "Сохранить и закрыть",
+      "saveButtonLabel": "Применить",
+      "cancelButtonLabel": "Назад",
+      "cancelLabel": "Отмена"
+    },
+    "confirmDelete": "Действительно удалить \"{0}\"?",
+    "yes": "Да",
+    "no": "Нет"
+  },
+  "copy-to-clipboard": {
+    "doneLabel": "Скопировано",
+    "hoverLabel": "Скопировать"
+  }
+}

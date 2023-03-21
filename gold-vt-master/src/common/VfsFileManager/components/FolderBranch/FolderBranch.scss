@@ -1,0 +1,18 @@
+@import "vuetify/src/styles/styles";
+
+.folder-branch {
+  &__item {
+    &:not(:last-child) {
+      &::after {
+        content: " / "
+      }
+    }
+
+    &:last-child {
+      pointer-events: none;
+      & a {
+        color: map-get($grey, 'lighten-1');
+      }
+    }
+  }
+}

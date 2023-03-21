@@ -1,0 +1,60 @@
+{
+  "vfsFileManager": {
+    "list": {
+      "headers": {
+        "id": "ID",
+        "name": "Имя файла",
+        "size": "Размер",
+        "date": "Дата"
+      }
+    },
+    "upload": {
+      "dropzoneText": "Нажмите или перетяните файлы сюда",
+      "filesListLabel": "Загружаемые файлы",
+      "imageEditLabel": "Редактирование изображения"
+    },
+    "actions": {
+      "addLabel": "Добавить",
+      "deleteLabel": "Удалить",
+      "editLabel": "Переименовать",
+      "duplicateLabel": "Дублировать",
+      "cutLabel": "Вырезать",
+      "previewLabel": "Превью",
+      "copyPathLabel": "Копировать адрес",
+      "pasteLabel": "Вставить{0}",
+      "cancelLabel": "Отмена",
+      "deleteConfirmation": "Удаление",
+      "deleteConfirmationQuestion": "Вы действительно хотите удалить файл \"{0}\"?",
+      "deleteManyConfirmationQuestion": "Вы действительно хотите удалить выбранные файлы?",
+      "deleteFolderConfirmationQuestion": "Вы действительно хотите удалить директорию \"{0}\"?",
+      "createFolderLabel": "Создать",
+      "copyPathSuccess": "Путь к файлу скопирован"
+    },
+    "search": {
+      "placeholder": "Поиск..."
+    },
+    "create": {
+      "createFolderDialogTitle": "Создать папку",
+      "createFolderNamePlaceholder": "Имя папки"
+    },
+    "update": {
+      "folderDialogTitle": "Редактировать папку",
+      "fileDialogTitle": "Переименовать файл",
+      "folderNamePlaceholder": "Имя папки",
+      "fileNamePlaceholder": "Имя файла",
+      "folderDialogText": "Введите новое имя папки  \"{0}\":",
+      "fileDialogText": "Введите новое серверное имя для файла \"{0}\":"
+    },
+    "error": {
+      "notFound": "Не удалось найти файл в VFS",
+      "whenDeleteFiles": "Ошибка при удалении файлов",
+      "whenDeleteFolder": "Ошибка при удалении диретории: {0}",
+      "whenUpdateFolder": "Ошибка при редактировании диретории: {0}",
+      "whenUpdateFile": "Ошибка при редактировании файла: {0}",
+      "whenManageFavorites": "Ошибка при редактировании избранного: {0}",
+      "whenMoveFiles": "Ошибка при перемещении файлов: {0}",
+      "whenMoveFolder": "Ошибка при перемещении директории: {0}",
+      "whenDuplicateFile": "Ошибка при дублировании файла: {0}"
+    }
+  }
+}

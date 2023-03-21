@@ -1,0 +1,32 @@
+{
+  "breadcrumbs": {
+    "userList": "Users",
+    "userAdd": "Add",
+    "userEdit": "Edit"
+  },
+  "user": {
+    "form": {
+      "loginLabel": "Login",
+      "passwordLabel": "Password",
+      "statusLabel": "Status",
+      "newPasswordLabel": "New password"
+    },
+    "list": {
+      "title": "Users",
+      "filter": {
+        "quickFilterPlaceholder": "Filter by login",
+        "login": "Login",
+        "statusId": "Status",
+        "lastActivityAtFrom": "Last activity from",
+        "lastActivityAtTo": "Last activity to"
+      },
+      "headers": {
+        "login": "Login",
+        "status": "Status",
+        "createdAt": "Created at",
+        "lastActivityAt": "Last activity at",
+        "actions": "Actions"
+      }
+    }
+  }
+}
