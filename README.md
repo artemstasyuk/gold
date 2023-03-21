@@ -1,7 +1,7 @@
 # gold
 
-JsonRpc Api 
+## JsonRpc Api 
 
 srv stack : go, go-pg(Orm), echo-framework(Web framework)
-client stack:  (Vue.ts)
+client: Vue.ts
  
