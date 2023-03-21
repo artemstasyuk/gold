@@ -10,41 +10,33 @@ export interface IAuthLoginParams {
   remember: boolean
 }
 
-export interface ICategoriesAddParams {
-  category: ICategory
-}
-
-export interface ICategoriesCountParams {
-  search?: ICategorySearch
-}
-
-export interface ICategoriesDeleteParams {
-  id: number
-}
-
-export interface ICategoriesGetByIDParams {
-  id: number
-}
-
-export interface ICategoriesGetParams {
-  search?: ICategorySearch,
-  viewOps?: IViewOps
-}
-
-export interface ICategoriesUpdateParams {
-  category: ICategory
-}
-
-export interface ICategoriesValidateParams {
-  category: ICategory
-}
-
 export interface ICategory {
   id: number,
   title: string,
   orderNumber: number,
   statusId: number,
   status?: IStatus
+}
+
+export interface ICategoryAddParams {
+  category: ICategory
+}
+
+export interface ICategoryCountParams {
+  search?: ICategorySearch
+}
+
+export interface ICategoryDeleteParams {
+  id: number
+}
+
+export interface ICategoryGetByIDParams {
+  id: number
+}
+
+export interface ICategoryGetParams {
+  search?: ICategorySearch,
+  viewOps?: IViewOps
 }
 
 export interface ICategorySearch {
@@ -60,6 +52,14 @@ export interface ICategorySummary {
   title: string,
   orderNumber: number,
   status?: IStatus
+}
+
+export interface ICategoryUpdateParams {
+  category: ICategory
+}
+
+export interface ICategoryValidateParams {
+  category: ICategory
 }
 
 export interface IFieldError {
@@ -157,6 +157,27 @@ export interface ITag {
   status?: IStatus
 }
 
+export interface ITagAddParams {
+  tag: ITag
+}
+
+export interface ITagCountParams {
+  search?: ITagSearch
+}
+
+export interface ITagDeleteParams {
+  id: number
+}
+
+export interface ITagGetByIDParams {
+  id: number
+}
+
+export interface ITagGetParams {
+  search?: ITagSearch,
+  viewOps?: IViewOps
+}
+
 export interface ITagSearch {
   id?: number,
   title?: string,
@@ -170,32 +191,11 @@ export interface ITagSummary {
   status?: IStatus
 }
 
-export interface ITagsAddParams {
+export interface ITagUpdateParams {
   tag: ITag
 }
 
-export interface ITagsCountParams {
-  search?: ITagSearch
-}
-
-export interface ITagsDeleteParams {
-  id: number
-}
-
-export interface ITagsGetByIDParams {
-  id: number
-}
-
-export interface ITagsGetParams {
-  search?: ITagSearch,
-  viewOps?: IViewOps
-}
-
-export interface ITagsUpdateParams {
-  tag: ITag
-}
-
-export interface ITagsValidateParams {
+export interface ITagValidateParams {
   tag: ITag
 }
 
@@ -285,49 +285,6 @@ export class AuthLoginParams implements IAuthLoginParams {
   remember: boolean = false;
 }
 
-export class CategoriesAddParams implements ICategoriesAddParams {
-  static entityName = "categoriesaddparams";
-
-  category: ICategory = null;
-}
-
-export class CategoriesCountParams implements ICategoriesCountParams {
-  static entityName = "categoriescountparams";
-
-  search?: ICategorySearch = null;
-}
-
-export class CategoriesDeleteParams implements ICategoriesDeleteParams {
-  static entityName = "categoriesdeleteparams";
-
-  id: number = 0;
-}
-
-export class CategoriesGetByIDParams implements ICategoriesGetByIDParams {
-  static entityName = "categoriesgetbyidparams";
-
-  id: number = 0;
-}
-
-export class CategoriesGetParams implements ICategoriesGetParams {
-  static entityName = "categoriesgetparams";
-
-  search?: ICategorySearch = null;
-  viewOps?: IViewOps = null;
-}
-
-export class CategoriesUpdateParams implements ICategoriesUpdateParams {
-  static entityName = "categoriesupdateparams";
-
-  category: ICategory = null;
-}
-
-export class CategoriesValidateParams implements ICategoriesValidateParams {
-  static entityName = "categoriesvalidateparams";
-
-  category: ICategory = null;
-}
-
 export class Category implements ICategory {
   static entityName = "category";
 
@@ -336,6 +293,37 @@ export class Category implements ICategory {
   orderNumber: number = 0;
   statusId: number = 0;
   status?: IStatus = null;
+}
+
+export class CategoryAddParams implements ICategoryAddParams {
+  static entityName = "categoryaddparams";
+
+  category: ICategory = null;
+}
+
+export class CategoryCountParams implements ICategoryCountParams {
+  static entityName = "categorycountparams";
+
+  search?: ICategorySearch = null;
+}
+
+export class CategoryDeleteParams implements ICategoryDeleteParams {
+  static entityName = "categorydeleteparams";
+
+  id: number = 0;
+}
+
+export class CategoryGetByIDParams implements ICategoryGetByIDParams {
+  static entityName = "categorygetbyidparams";
+
+  id: number = 0;
+}
+
+export class CategoryGetParams implements ICategoryGetParams {
+  static entityName = "categorygetparams";
+
+  search?: ICategorySearch = null;
+  viewOps?: IViewOps = null;
 }
 
 export class CategorySearch implements ICategorySearch {
@@ -355,6 +343,18 @@ export class CategorySummary implements ICategorySummary {
   title: string = null;
   orderNumber: number = 0;
   status?: IStatus = null;
+}
+
+export class CategoryUpdateParams implements ICategoryUpdateParams {
+  static entityName = "categoryupdateparams";
+
+  category: ICategory = null;
+}
+
+export class CategoryValidateParams implements ICategoryValidateParams {
+  static entityName = "categoryvalidateparams";
+
+  category: ICategory = null;
 }
 
 export class FieldError implements IFieldError {
@@ -480,6 +480,37 @@ export class Tag implements ITag {
   status?: IStatus = null;
 }
 
+export class TagAddParams implements ITagAddParams {
+  static entityName = "tagaddparams";
+
+  tag: ITag = null;
+}
+
+export class TagCountParams implements ITagCountParams {
+  static entityName = "tagcountparams";
+
+  search?: ITagSearch = null;
+}
+
+export class TagDeleteParams implements ITagDeleteParams {
+  static entityName = "tagdeleteparams";
+
+  id: number = 0;
+}
+
+export class TagGetByIDParams implements ITagGetByIDParams {
+  static entityName = "taggetbyidparams";
+
+  id: number = 0;
+}
+
+export class TagGetParams implements ITagGetParams {
+  static entityName = "taggetparams";
+
+  search?: ITagSearch = null;
+  viewOps?: IViewOps = null;
+}
+
 export class TagSearch implements ITagSearch {
   static entityName = "tagsearch";
 
@@ -497,45 +528,14 @@ export class TagSummary implements ITagSummary {
   status?: IStatus = null;
 }
 
-export class TagsAddParams implements ITagsAddParams {
-  static entityName = "tagsaddparams";
+export class TagUpdateParams implements ITagUpdateParams {
+  static entityName = "tagupdateparams";
 
   tag: ITag = null;
 }
 
-export class TagsCountParams implements ITagsCountParams {
-  static entityName = "tagscountparams";
-
-  search?: ITagSearch = null;
-}
-
-export class TagsDeleteParams implements ITagsDeleteParams {
-  static entityName = "tagsdeleteparams";
-
-  id: number = 0;
-}
-
-export class TagsGetByIDParams implements ITagsGetByIDParams {
-  static entityName = "tagsgetbyidparams";
-
-  id: number = 0;
-}
-
-export class TagsGetParams implements ITagsGetParams {
-  static entityName = "tagsgetparams";
-
-  search?: ITagSearch = null;
-  viewOps?: IViewOps = null;
-}
-
-export class TagsUpdateParams implements ITagsUpdateParams {
-  static entityName = "tagsupdateparams";
-
-  tag: ITag = null;
-}
-
-export class TagsValidateParams implements ITagsValidateParams {
-  static entityName = "tagsvalidateparams";
+export class TagValidateParams implements ITagValidateParams {
+  static entityName = "tagvalidateparams";
 
   tag: ITag = null;
 }
@@ -654,27 +654,27 @@ export const factory = (send: any) => ({
       return send('auth.VfsAuthToken')
     }
   },
-  categories: {
-    add(params: ICategoriesAddParams): Promise<ICategory> {
-      return send('categories.Add', params)
+  category: {
+    add(params: ICategoryAddParams): Promise<ICategory> {
+      return send('category.Add', params)
     },
-    count(params: ICategoriesCountParams): Promise<number> {
-      return send('categories.Count', params)
+    count(params: ICategoryCountParams): Promise<number> {
+      return send('category.Count', params)
     },
-    delete(params: ICategoriesDeleteParams): Promise<boolean> {
-      return send('categories.Delete', params)
+    delete(params: ICategoryDeleteParams): Promise<boolean> {
+      return send('category.Delete', params)
     },
-    get(params: ICategoriesGetParams): Promise<Array<ICategorySummary>> {
-      return send('categories.Get', params)
+    get(params: ICategoryGetParams): Promise<Array<ICategorySummary>> {
+      return send('category.Get', params)
     },
-    getByID(params: ICategoriesGetByIDParams): Promise<ICategory> {
-      return send('categories.GetByID', params)
+    getByID(params: ICategoryGetByIDParams): Promise<ICategory> {
+      return send('category.GetByID', params)
     },
-    update(params: ICategoriesUpdateParams): Promise<boolean> {
-      return send('categories.Update', params)
+    update(params: ICategoryUpdateParams): Promise<boolean> {
+      return send('category.Update', params)
     },
-    validate(params: ICategoriesValidateParams): Promise<Array<IFieldError>> {
-      return send('categories.Validate', params)
+    validate(params: ICategoryValidateParams): Promise<Array<IFieldError>> {
+      return send('category.Validate', params)
     }
   },
   news: {
@@ -700,27 +700,27 @@ export const factory = (send: any) => ({
       return send('news.Validate', params)
     }
   },
-  tags: {
-    add(params: ITagsAddParams): Promise<ITag> {
-      return send('tags.Add', params)
+  tag: {
+    add(params: ITagAddParams): Promise<ITag> {
+      return send('tag.Add', params)
     },
-    count(params: ITagsCountParams): Promise<number> {
-      return send('tags.Count', params)
+    count(params: ITagCountParams): Promise<number> {
+      return send('tag.Count', params)
     },
-    delete(params: ITagsDeleteParams): Promise<boolean> {
-      return send('tags.Delete', params)
+    delete(params: ITagDeleteParams): Promise<boolean> {
+      return send('tag.Delete', params)
     },
-    get(params: ITagsGetParams): Promise<Array<ITagSummary>> {
-      return send('tags.Get', params)
+    get(params: ITagGetParams): Promise<Array<ITagSummary>> {
+      return send('tag.Get', params)
     },
-    getByID(params: ITagsGetByIDParams): Promise<ITag> {
-      return send('tags.GetByID', params)
+    getByID(params: ITagGetByIDParams): Promise<ITag> {
+      return send('tag.GetByID', params)
     },
-    update(params: ITagsUpdateParams): Promise<boolean> {
-      return send('tags.Update', params)
+    update(params: ITagUpdateParams): Promise<boolean> {
+      return send('tag.Update', params)
     },
-    validate(params: ITagsValidateParams): Promise<Array<IFieldError>> {
-      return send('tags.Validate', params)
+    validate(params: ITagValidateParams): Promise<Array<IFieldError>> {
+      return send('tag.Validate', params)
     }
   },
   user: {

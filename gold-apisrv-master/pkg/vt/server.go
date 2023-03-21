@@ -17,11 +17,11 @@ const (
 )
 
 const (
-	NSAuth       = "auth"
-	NSUser       = "user"
-	NSNews       = "news"
-	NSTags       = "tags"
-	NSCategories = "categories"
+	NSAuth     = "auth"
+	NSUser     = "user"
+	NSNews     = "news"
+	NSTag      = "tag"
+	NSCategory = "category"
 )
 
 var (
@@ -72,11 +72,11 @@ func New(dbo db.DB, logger embedlog.Logger, isDevel bool) zenrpc.Server {
 
 	// services
 	rpc.RegisterAll(map[string]zenrpc.Invoker{
-		NSAuth:       NewAuthService(dbo, logger),
-		NSUser:       NewUserService(dbo, logger),
-		NSNews:       NewNewsService(dbo, logger),
-		NSCategories: NewCategoryService(dbo, logger),
-		NSTags:       NewTagService(dbo, logger),
+		NSAuth:     NewAuthService(dbo, logger),
+		NSUser:     NewUserService(dbo, logger),
+		NSNews:     NewNewsService(dbo, logger),
+		NSCategory: NewCategoryService(dbo, logger),
+		NSTag:      NewTagService(dbo, logger),
 	})
 
 	return rpc
